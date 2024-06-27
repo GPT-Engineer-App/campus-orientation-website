@@ -1,15 +1,10 @@
-// Update this page (the content is just a fallback if you fail and example)
+import React from 'react';
 
 const Index = () => {
   return (
-    <div className="h-screen w-screen flex items-center justify-center">
-      {/* Update with components here - default to put new layout sections as separate components in the components folder, and import them here */}
-      <div>
-        <h1 className="text-3xl text-center">Your Blank Canvas</h1>
-        <p className="text-center">
-          Chat with the agent to start making edits.
-        </p>
-      </div>
+    <div className="p-4">
+      <h1 className="text-3xl font-bold">Welcome to the University Camp</h1>
+      <p className="mt-4">This is the overview page. Use the sidebar to navigate through different sections.</p>
     </div>
   );
 };
